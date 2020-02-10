@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(52, 58, 64);
+    background-image: url("https://images2.alphacoders.com/901/901504.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-image: url(images/background.jpg); */
+}
+
+.container{
+    margin-top: 15px;
+}
+
+.navbar-nav{
+    background-color: rgb(161, 145, 92);
+    border: 2px solid rgb(255, 202, 88);
+    border-radius: 5px;
+}
+
+.navbar-brand{
+    background-color: rgb(161, 145, 92);
+    border: 2px solid rgb(255, 202, 88);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 33.5%;
+    color: rgb(52, 58, 64);
+}
+
+h1{
+    color: rgb(255, 202, 88);
+    background-color: rgb(146, 52, 52);
+    text-align: center;
+    border-bottom: 3px solid rgb(255, 202, 88);
+    border-top: 3px solid rgb(255, 202, 88);
+    border-radius: 5px;
+}
+
+.item{
+    display: inline-block;
+    width: 300px;
+    height: 550px;
+
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(161, 145, 92, 0.644);
+    padding: 10px;
+    border-radius: 5px;
+
+    text-align: center;
+}
+
+.item img{
+    width: 330px;
+    height: 280px;
+}
+
+.item .itemCode,
+.item .itemCategory{
+    display: inlide-block;
+    color: white;
+    width: 48%;
+}
+
+.item .itemPrice{
+    color: rgb(255, 202, 88);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.item .itemDescription{
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgba(52, 58, 64, 0.527);
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.item button{
+    float: right;
+}
+
+.item .itemPrice{
+    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.item:hover{
+    border: 2px solid rgb(255, 202, 88);
+    box-shadow: -5px 5px 5px rgb(146, 52, 52);
+    
+}
+
+#addToCart:hover{
+    background-color: rgb(255, 202, 88);
+    color: white;
+    border: 2px solid white;
+}
+
+#alertSuccess{
+    float: right;
+}
+
+.selected{
+    border: 1px solid gold;
+}
+
+.modal img{
+    width: 100%;
+    height: auto;
+}

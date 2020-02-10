@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(52, 58, 64);
+    background-image: url("https://external-preview.redd.it/6TXAkRpxA3Qv7EIc8HqgEvKYr-_OL0MNv4m8RtLtDxI.jpg?auto=webp&s=f9e4f0568445f11bcb781b12b3a0414d8b959a57");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar-nav{
+    background-color: rgb(161, 145, 92);
+    border: 2px solid rgb(255, 202, 88);
+    border-radius: 5px;
+}
+
+.navbar-brand{
+    background-color: rgb(161, 145, 92);
+    border: 2px solid rgb(255, 202, 88);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 33.5%;
+    color: rgb(146, 52, 52);
+}
+
+.container{
+    margin-top: 1%;
+}
+
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(255, 202, 88);
+    background-color: rgb(52, 58, 64);
+    text-align: center;
+    border-bottom: 3px solid rgb(255, 202, 88);
+    border-top: 3px solid rgb(255, 202, 88);
+    border-radius: 5px;
+}
+
+.contact{
+    background-color: rgba(143, 129, 83, 0.644);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.row{
+    margin-bottom: 25px;
+    padding: 12px;
+    width: 500px;
+    text-align: center;
+}
+
+.col-4{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 202, 88);
+    background-color: rgba(0, 0, 0, 0.384);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 102%;
+}
+
+.col-8{
+    margin-left: 85%;
+    width: 50%;
+}
+
+#btnSave{
+    background-color: rgba(0, 0, 0, 0.384);
+    color: rgb(255, 202, 88);
+    border-radius: 5px;
+    border: 1px solid white;
+    text-align: left;
+}
+
+#btnSave:hover{
+    background-color: rgb(255, 202, 88);
+    border: 1px solid rgb(146, 52, 52);
+    color: rgb(146, 52, 52);
+}
+
+.hidden{
+    display: none;
+}
+
+span{
+    font-size: 16px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.btn-primary{}
